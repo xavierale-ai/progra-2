@@ -27,7 +27,7 @@ public class ListaSimple<L>
     private Node<L> current;
     private Node<L> tail;
     private int cantidad;
-;
+
     
     
     //constructor

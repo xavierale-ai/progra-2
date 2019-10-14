@@ -32,6 +32,10 @@ public class Vuelo
         int cantidad = 0;
     }
 
+    public Vuelo() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public ColaPrioridad getEconomico() {
         return economico;
     }

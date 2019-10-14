@@ -5,11 +5,14 @@
  */
 package Ventanas;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 /**
  *
  * @author julian
  */
-public class NewJFrame1 extends javax.swing.JFrame {
+public class NewJFrame1 extends javax.swing.JFrame implements ActionListener{
 
     /**
      * Creates new form NewJFrame1
@@ -90,6 +93,9 @@ public class NewJFrame1 extends javax.swing.JFrame {
 
     private void boton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton1ActionPerformed
         // TODO add your handling code here:
+        NewJFrame7 hola = new NewJFrame7();
+        hola.setVisible(true);
+        dispose();
     }//GEN-LAST:event_boton1ActionPerformed
 
     /**
@@ -134,4 +140,9 @@ public class NewJFrame1 extends javax.swing.JFrame {
     private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
+
+    @Override
+    public void actionPerformed(ActionEvent arg0) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

@@ -18,13 +18,14 @@ public class Ingreso
     String origen;
     String destino;
     String servicio;
+    char asiento;
     
     public Ingreso()
     {
         
     }
     
-    public Ingreso(String pNombre, String pFecha,int pPasaporte,String pNacionalidad,String pOrigen,String pDestino,String pServicio)
+    public Ingreso(String pNombre, String pFecha,int pPasaporte,String pNacionalidad,String pOrigen,String pDestino,String pServicio,char asiento)
     {
         this.nombre = pNombre;
         this.fecha = pFecha;
@@ -33,6 +34,7 @@ public class Ingreso
         this.origen = pOrigen;
         this.destino = pDestino;
         this.servicio = pServicio;
+        this.asiento = asiento;
     }
 
     public String getNombre() {

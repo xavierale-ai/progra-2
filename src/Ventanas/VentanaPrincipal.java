@@ -12,12 +12,12 @@ import java.awt.event.ActionListener;
  *
  * @author julian
  */
-public class NewJFrame1 extends javax.swing.JFrame implements ActionListener{
+public class VentanaPrincipal extends javax.swing.JFrame implements ActionListener{
 
     /**
      * Creates new form NewJFrame1
      */
-    public NewJFrame1() {
+    public VentanaPrincipal() {
         initComponents();
     }
 
@@ -93,7 +93,7 @@ public class NewJFrame1 extends javax.swing.JFrame implements ActionListener{
 
     private void boton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton1ActionPerformed
         // TODO add your handling code here:
-        NewJFrame7 hola = new NewJFrame7();
+        CheckIn hola = new CheckIn();
         hola.setVisible(true);
         dispose();
     }//GEN-LAST:event_boton1ActionPerformed
@@ -115,20 +115,21 @@ public class NewJFrame1 extends javax.swing.JFrame implements ActionListener{
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(NewJFrame1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(NewJFrame1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(NewJFrame1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(NewJFrame1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new NewJFrame1().setVisible(true);
+                new VentanaPrincipal().setVisible(true);
             }
         });
     }

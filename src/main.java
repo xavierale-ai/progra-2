@@ -1,12 +1,12 @@
 
-import Ventanas.NewJFrame1;
+import Ventanas.VentanaPrincipal;
 
 
 public class main {
     public static void main(String[] args) 
     { 
        
-     NewJFrame1 hola = new NewJFrame1();
+     VentanaPrincipal hola = new VentanaPrincipal();
      hola.setVisible(true);
      
         

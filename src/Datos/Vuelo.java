@@ -16,6 +16,7 @@ public class Vuelo
     ColaPrioridad platino;
     ColaPrioridad especial;
     String destino;
+    int cantidad;
 
     /**
      *
@@ -28,6 +29,7 @@ public class Vuelo
         this.platino = new ColaPrioridad();
         this.especial = new ColaPrioridad();
         this.destino = destino;
+        int cantidad = 0;
     }
 
     public ColaPrioridad getEconomico() {
